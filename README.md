@@ -2,6 +2,6 @@
 ## Explain
 #### Simple Web Page Sample
 ## Build
-#### podman build -t sample-apl .
+#### podman build -t <<image_name>> .
 ## Run
-#### podman run -d --name test -p 8088:8088 localhost/sample-apl
+#### podman run -d --name <<container_name>> -p 8088:8088 <<image_name>>
